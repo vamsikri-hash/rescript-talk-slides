@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Rescript Talk</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>Hi! 👋</section>
+        <section>
+          Building better Web Apps using a Sound Type System
+          <p class="fragment fade-up">What actually is <b>Sound Type System?</b></p>
+        </section>
+        <section>
+          A Bit History
+          <p class="fragment fade-up">
+            <a href="https://reasonml.github.io/" target="_blank">ReasonML</a> by <a href="https://twitter.com/jordwalke" target="_blank">Jordan Walke</a>
+            at Facebook
+          </p>
+          <p class="fragment fade-up">
+            Bucklescript by <a href="https://twitter.com/bobzhang1988" target="_blank">Hongbo Zhang</a> at Bloomberg
+          </p>
+          <p class="fragment fade-up">
+            Bucklescript
+            <a href="https://rescript-lang.org/blog/bucklescript-is-rebranding" target="_blank"
+              >rebranded</a
+            >
+            to Rescript
+          </p>
+        </section>
+
+        <section>
+          What is Rescript?
+          <p class="fragment fade-up">Strongly Typed Functional Language</p>
+          <p class="fragment fade-up">
+            Fast compiler that emits readable Javascript
+          </p>
+          <p class="fragment fade-up">Nice support for JS Interoperability</p>
+          <p class="fragment fade-up">Simple Editor tooling</p>
+          <p class="fragment fade-up">Uses same npm tooling</p>
+        </section>
+
+        <section>
+          Taste Of Rescript
+          <p class="fragment fade-up">
+            <img src="./images/rescript-code.png" alt="rescript-code" />
+          </p>
+        </section>
+
+        <section>
+          Rescript vs Javascript
+          <p class="fragment fade-up">Variables</p>
+          <p class="fragment fade-up">Types</p>
+          <p class="fragment fade-up">Data - Arrays, Tuples, Records</p>
+          <p class="fragment fade-up">Functions</p>
+          <p class="fragment fade-up">Conditionals - If/Else, Switch</p>
+          <p class="fragment fade-up">Pattern Matching</p>
+          <p class="fragment fade-up">No Null & Undefined</p>
+        </section>
+
+        <section>
+          <section>
+            React with Rescript
+            <p class="fragment fade-up">Inbuilt support for JSX</p>
+            <p class="fragment fade-up">
+              Rescript offers first class bindings support for React
+            </p>
+            <p class="fragment fade-up">
+              We can always use our favourite react libraries
+            </p>
+            <p class="fragment fade-up">
+              <a href="https://github.com/jihchi/vitejs-template-react-rescript" target="_blank"
+                >Vite + Rescript + React Template</a
+              >
+            </p>
+          </section>
+        </section>
+
+        <section>
+          Resources
+
+          <p class="fragment fade-up">
+            <a href="https://rescript-lang.org/" target="_blank"
+              >https://rescript-lang.org/</a
+            >
+          </p>
+          <p class="fragment fade-up">
+            <a
+              href="https://github.com/protoship/rescript-tutorial"
+              target="_blank"
+              >https://github.com/protoship/rescript-tutorial</a
+            >
+          </p>
+          <p class="fragment fade-up">
+            <a
+              href="https://github.com/fhammerschmidt/awesome-rescript"
+              target="_blank"
+              >https://github.com/fhammerschmidt/awesome-rescript
+            </a>
+          </p>
+          <p class="fragment fade-up">
+            Inspiration for large scale apps -
+            <a href="https://github.com/pupilfirst/pupilfirst" target="_blank"
+              >https://github.com/pupilfirst/pupilfirst</a
+            >
+            <br />
+            ~ 433 files and ~ 50689 loc ( only rescript )
+          </p>
+        </section>
+
+        <section>
+          "A language that doesn't affect the way you think about programming,
+          is not worth knowing." - Alan J. Perlis
+          <p class="fragment fade-up">Any Questions ?</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

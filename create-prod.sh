@@ -1,0 +1,6 @@
+rm -rf "public"
+mkdir "public"
+cp "index.html" "public/"
+cp -Rf "dist" "public/"
+cp -Rf "plugin" "public/"
+cp -Rf "images" "public/"
